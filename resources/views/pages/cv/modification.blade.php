@@ -115,6 +115,7 @@
                                         <option>Developpeur Front-end</option>                
                                         <option>Expert Comptable</option>
                                         <option>Expert Finance</option>
+                                        <option>Electicien</option>
                                         <option>FullStack Back-end</option>
                                     </optgroup>
                                 </select>
