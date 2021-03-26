@@ -101,9 +101,20 @@
                                 <!--<input id="contrat" type="text" class="form-control @error('adresse') is-invalid @enderror" name="contrat" required autocomplete="current-contrat">-->
                                 <select id="specialite" class="form-control @error('specialite') is-invalid @enderror" name="specialite" required autocomplete="current-specialite">
                                     <optgroup>
-                                        <option selected="">Designer 3D</option>
-                                        <option>FullStack Back-end</option>
+                                        <option>Architecte Informatique</option>
+                                        <option>Designer 3D</option>
                                         <option>Developpeur Web</option>
+                                        <option>Developpeur FullStack</option>
+                                        <option>Developpeur Mobile</option>
+                                        <option>Expert Cyber-security</option>
+                                        <option>DevOps</option>
+                                        <option>Data Scientist</option>
+                                        <option>DevOps</option>
+                                        <option>Developpeur Front-End</option>
+                                        <option>Developpeur Front-end</option>                
+                                        <option>Expert Comptable</option>
+                                        <option>Expert Finance</option>
+                                        <option>FullStack Back-end</option>
                                     </optgroup>
                                 </select>
                                 @error('specialite')
@@ -121,9 +132,12 @@
                                 <!--<input id="contrat" type="text" class="form-control @error('adresse') is-invalid @enderror" name="contrat" required autocomplete="current-contrat">-->
                                 <select id="etude" class="form-control @error('etude') is-invalid @enderror" name="etude" required autocomplete="current-etude">
                                     <optgroup label="This is a group">
-                                        <option>Bac</option>
                                         <option>License</option>
+                                        <option>License 2</option>
+                                        <option>License 3</option>
                                         <option>Master</option>
+                                        <option>Master 2</option>
+                                        <option>Doctorat</option>
                                     </optgroup>
                                 </select>
                                 @error('etude')

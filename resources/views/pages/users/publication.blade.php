@@ -87,9 +87,9 @@
                                 <!--<input id="contrat" type="text" class="form-control @error('adresse') is-invalid @enderror" name="contrat" required autocomplete="current-contrat">-->
                                 <select id="contrat" class="form-control @error('adresse') is-invalid @enderror" name="contrat" required autocomplete="current-contrat">
                                     <optgroup>
-                                        <option selected=""></option>
                                         <option>CDD</option>
                                         <option>CDI</option>
+                                        <option>Freelance</option>
                                     </optgroup>
                                 </select>
                                 @error('contrat')
